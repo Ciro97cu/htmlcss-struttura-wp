@@ -5,69 +5,61 @@
     box-sizing: border-box;
 }
 
-/* Grandezza body */
-body {
-    width: 100vw;
-    height: 100vh;
-}
-
-
+/* Regole css per la classe container */
 .container {
+    height: 1400px;
     width: 80%;
-    height: 90%;
-    margin: auto;
-    position: relative;
-    top: 5%;
+    margin: 30px auto;    
 }
 
+/* Regole css per l'elemento header */
 header {
     height: 10%;
     background-color: #e579e6;
     margin-bottom: 2%;
 }
 
+/* Regole css per l'elemento main */
 main {
     height: 28%;
     background-color: #e1d67a;
     margin-bottom: 2%;
 }
 
+/* Regole css div classe head */
+.head {
+    width: 100%;
+    height: 7%;
+    background-color: #abcfe7;
+}
+
 /* Article con elementi flottati */
 article {
-    height: 50%;
-    width: 100%;
+    height: 41%;
     background-color: #0186ff;
     margin-bottom: 2%;
 }
 
-.float{
+.float {
     background-color: #abcfe7;
-}
-
-.head{
-    width: 100%;
-    height: 20%;
-}
-
-.left {
     float: left;
-    width: 30%;
-    height: 70%;
-    margin-top: 3%;
+    width: 32%;
+    height: 90%;
+    margin-top: 2.5%;
 }
 
 .margin {
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
 /* Footer */
-footer{
+footer {
     height: 6%;
     background-color: #8801fe;
 }
