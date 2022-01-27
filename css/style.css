@@ -28,14 +28,13 @@ main {
 
 /* Regole css div classe head */
 .head {
-    width: 100%;
     height: 7%;
     background-color: #abcfe7;
 }
 
 /* Article con elementi flottati */
 article {
-    height: 41%;
+    height: 43%;
     background-color: #0186ff;
     margin-bottom: 2%;
 }
