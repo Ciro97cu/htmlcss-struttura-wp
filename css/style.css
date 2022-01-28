@@ -7,47 +7,51 @@
 
 /* Regole css per la classe container */
 .container {
-    height: 1400px;
     width: 80%;
-    margin: 30px auto;    
+    margin: 50px auto;    
 }
 
 /* Regole css per l'elemento header */
 header {
-    height: 10%;
+    height: 100px;
     background-color: #e579e6;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 
-/* Regole css per l'elemento main */
-main {
-    height: 28%;
+/* Regole css per l'elemento figure */
+figure {
+    height: 400px;
     background-color: #e1d67a;
-    margin-bottom: 2%;
+    margin-bottom: 20px;
 }
 
 /* Regole css div classe head */
 .head {
-    height: 7%;
+    height: 80px;
     background-color: #abcfe7;
 }
 
-/* Article con elementi flottati */
-article {
-    height: 43%;
+/* Regole css main con elementi flottati */
+main {
     background-color: #0186ff;
-    margin-bottom: 2%;
+    margin-bottom: 10px;
 }
 
 .float {
     background-color: #abcfe7;
     float: left;
-    width: 32%;
-    height: 90%;
-    margin-top: 2.5%;
+    height: 570px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.lx, .rx {
+    width: 25%;
 }
 
 .margin {
+    width: 46%;
+    margin-left: 2%;
     margin-right: 2%;
 }
 
@@ -59,6 +63,6 @@ article {
 
 /* Footer */
 footer {
-    height: 6%;
+    height: 50px;
     background-color: #8801fe;
 }
